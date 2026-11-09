@@ -1,0 +1,16 @@
+{
+  "name": "binhdinh-seafood-connect",
+  "version": "1.0.0",
+  "description": "Ket noi tieu thu tom hum Nhon Hai sau bao 2026 - Binh Dinh - HTK 0396241674",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "check": "node --check api/index.js"
+  },
+  "author": "HTK <htk.contact@gmail.com> (https://zalo.me/0396241674)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
